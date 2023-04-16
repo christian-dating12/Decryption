@@ -12,8 +12,14 @@ print("\033[90m=" *80)
 #Pseudocode
 #ask user for input
 input_str = input("\033[94mPlease enter a string to decrypt: ")
+output_str = ""
 #check each characters
 #if '*' , change to a
+for i in range(len(input_str)):
+    if input_str[i] == "*":
+        output_str += "a"
+    else :
+        output_str += input_str[i]
 #if '&' , change to e
 #if '#' , change to i
 #if '+' , change to o
