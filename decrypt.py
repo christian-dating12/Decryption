@@ -21,9 +21,12 @@ for i in range(len(input_str)):
 #if '&' , change to e
     elif input_str[i] == "&":
         output_str += "e"
+#if '#' , change to i
+    elif input_str[i] == "#":
+        output_str += "i"
     else :
         output_str += input_str[i]
-#if '#' , change to i
+
 #if '+' , change to o
 #if '!' , change to u
 #print output
