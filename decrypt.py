@@ -36,3 +36,9 @@ for i in range(len(input_str)):
 #print output
 print("\n\033[98mYour string: ", input_str)
 print("\n\033[98mThe Plain Text: ", output_str)
+
+print("\033[90m=" *80)
+#Outro
+greet1 = "THANK YOU!"
+print("\033[92m" + pyfiglet.figlet_format(greet1, font = "bubble"))
+print("\033[90m=" *80)
