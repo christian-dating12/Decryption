@@ -18,9 +18,11 @@ output_str = ""
 for i in range(len(input_str)):
     if input_str[i] == "*":
         output_str += "a"
+#if '&' , change to e
+    elif input_str[i] == "&":
+        output_str += "e"
     else :
         output_str += input_str[i]
-#if '&' , change to e
 #if '#' , change to i
 #if '+' , change to o
 #if '!' , change to u
