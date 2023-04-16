@@ -34,3 +34,5 @@ for i in range(len(input_str)):
         output_str += input_str[i]
 
 #print output
+print("\n\033[98mYour string: ", input_str)
+print("\n\033[98mThe Plain Text: ", output_str)
